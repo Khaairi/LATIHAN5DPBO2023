@@ -22,7 +22,7 @@ Pada class `Mahasiswa` terdapat lima atribut:
 * **jKelamin** -> Jenis kelamin mahasiswa, `String`
 
 Pada class `Menu` berisi method-method untuk GUI:
-* **Set Tabel** -> Men-set Tabel untuk ditampilkan pada GUI, `DefaultTableModel
+* **Set Tabel** -> Men-set Tabel untuk ditampilkan pada GUI, `DefaultTableModel`
 * **Insert Data** -> Menambah data, `void`
 * **Update Data** -> Mengubah data yang dipilih, `void`
 * **Delete Data** -> Menghapus data yang dipilih, `void`
@@ -33,7 +33,7 @@ Pada class `Menu` berisi method-method untuk GUI:
 ![design](https://user-images.githubusercontent.com/100757455/226342082-c12e0e27-406d-4e64-a80e-0da7a20bbe9c.png)
 
 ## Alur Program GUI
-Terdapat textfield untuk mengisi data nim, nama dan nilai. Spinner untuk mengisi data usia. Radio button untuk mengisi data jenis kelamin. Jika semua data sudah diisi dan klik button `add` maka akan menambahkan data serta data akan ditampilkan pada tabel dan data pada field juga akan direset ke default (kosong). Jika user sedang mengisi data dan klik tombol `cancel` maka akan mengosongkan semua data yang sebelumnya sedang diisi (bukan data pada tabel). Jika user klik salah satu data pada tabel, data akan otomatis terisi pada field untuk mengisi data, sesuai dengan data yang dipilih, serta user dapat mengubah atau menghapus data tesebut. Jika user mengubah salah satu data dan klik tombol `update` maka data pada tabel akan berubah. Jika user klik tombol `delete` maka akan muncul kotak dialog untuk konfirmasi dan jika diklik `ok` maka data akan dihapus.
+Terdapat textfield untuk mengisi data nim, nama dan nilai. Spinner untuk mengisi data usia. Radio button untuk mengisi data jenis kelamin. Jika semua data sudah diisi dan klik button `add` maka akan menambahkan data serta data akan ditampilkan pada tabel dan data pada field juga akan direset ke default (kosong). Jika user sedang mengisi data dan klik tombol `cancel` maka akan mengosongkan semua data yang sebelumnya sedang diisi (bukan data pada tabel). Jika user klik salah satu data pada tabel, data akan otomatis terisi pada field untuk mengisi data, sesuai dengan data yang dipilih, serta user dapat mengubah atau menghapus data tesebut. Jika user mengubah salah satu data dan klik tombol `update` maka data pada tabel akan berubah. Jika user klik tombol `delete` maka akan muncul kotak dialog untuk konfirmasi dan jika diklik `Yes` maka data akan dihapus.
 
 ## Dokumentasi
 **Jar File**
